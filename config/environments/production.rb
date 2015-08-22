@@ -77,6 +77,13 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+
+  # Followed instructions from http://stackoverflow.com/questions/23180650/how-to-solve-error-missing-secret-key-base-for-production-environment-on-h in order to find the below line of code.
+
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
+
+
+
   # Mail settings
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = {
