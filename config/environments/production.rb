@@ -80,7 +80,7 @@ Rails.application.configure do
 
   # Followed instructions from http://stackoverflow.com/questions/23180650/how-to-solve-error-missing-secret-key-base-for-production-environment-on-h in order to find the below line of code.
 
-  config.secret_key_base = ENV["SECRET_KEY_BASE"]
+  # config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
 
 
