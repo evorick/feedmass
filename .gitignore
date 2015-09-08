@@ -9,3 +9,6 @@ db/*.sqlite3
 log/*
 tmp/*
 uploads/*
+
+# Ignore application configuration
+/config/application.yml
