@@ -16,16 +16,15 @@ gem 'acts_as_tree'
 gem 'paperclip'
 gem 'jquery-fileupload-rails'
 
-group :development do
+group :development, :test do
   gem 'web-console', '~> 2.0'
-  gem 'pg'
-  # gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :test do
   gem 'factory_girl_rails'
 end
 
-group :test, :production do
+group :production do
   gem 'pg'
 end
